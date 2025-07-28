@@ -5,11 +5,35 @@
 
 /*Edições do cabeçalho do site*/
 
+.header-container {
+    display: flex;
+    justify-content: center;  /* centraliza o menu */
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
 
+.logo_cabecalho {
+    position: absolute;
+    left: 20px; /* canto esquerdo */
+}
 
+.logo_cabecalho img {
+    width: 130px;
+}
 
+.menu_cabecalho {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Antic';
+}
 
-
+.menu_cabecalho a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #1351d8;
+}
 
 
 
