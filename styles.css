@@ -27,6 +27,7 @@
     justify-content: center;
     gap: 30px;
     font-family: 'Antic';
+    font-weight: bold;
 }
 
 .menu_cabecalho a {
@@ -34,6 +35,32 @@
     font-size: 25px;
     color: #1351d8;
 }
+
+/*Edições do meio/main do site*/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Centraliza horizontalmente */
+    justify-content: center;  /* Centraliza verticalmente */
+    min-height: 80vh;         /* Ajusta a altura para centralizar na tela */
+    text-align: center;       /* Centraliza o texto */
+    gap: 20px;                /* Espaço entre imagem e legenda */
+    font-family: 'Antic';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.carro_ford {
+    max-width: 80%;           /* Faz a imagem se adaptar melhor a telas menores */
+    height: auto;
+}
+
+
+
+
+
+
 
 
 
