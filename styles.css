@@ -52,7 +52,7 @@
 }
 
 .carro_ford {
-    max-width: 80%;           /* Faz a imagem se adaptar melhor a telas menores */
+    max-width: 100%;           /* Faz a imagem se adaptar melhor a telas menores */
     height: auto;
 }
 
