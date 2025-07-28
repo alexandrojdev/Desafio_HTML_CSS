@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Edições do cabeçalho do site*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Edições do rodapé do site*/
+
+footer {
+    font-family: 'Antic';
+    background-color: #1b357e;
+    color: #ffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+.menu-footer {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espaço entre h2 e redes-sociais */
+    padding: 10px; /* opcional: espaçamento interno */
+
+}
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-footer {
+    width: 90px;
+    position: absolute;
+    right: 40px;
+}
+
+
+
