@@ -42,13 +42,35 @@
 
 
 .container_main {
-    
     justify-content: center;
     align-items: center; 
     display: flex;
     width: 100%;
 }
 
+
+.container_escolhas_de_carro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ff007f;
+    margin-top: 40px;
+
+}
+
+.modelo_xl, .modelo_xls, .modelo_storm {
+    width: 250px;
+    flex-direction: column;
+    margin-right: 5px;
+    padding: 20px;
+
+}
+
+.selecione_modelo_de_carro {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
 
 
 
