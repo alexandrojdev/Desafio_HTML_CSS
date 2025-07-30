@@ -51,28 +51,62 @@
 
 .container_escolhas_de_carro {
     display: flex;
-    align-items: center;
     justify-content: center;
-    border: 2px solid #ff007f;
+    gap: 40px;
     margin-top: 40px;
-
-}
-
-.modelo_xl, .modelo_xls, .modelo_storm {
-    width: 250px;
-    flex-direction: column;
-    margin-right: 5px;
     padding: 20px;
-
 }
 
-.selecione_modelo_de_carro {
+.modelo_opcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Antic';
+    text-align: start;
+    color: #1351d8;
+    font-size: 16px;
+}
+
+.modelo_opcao img {
+    width: 250px;
+    padding: 10px;
+}
+
+.modelo_opcao input {
+    margin-top: 10px;
+}
+
+.modelo_opcao label {
+    margin-top: 5px;
+    max-width: 250px;
+}
+
+.checkbox_label {
     display: flex;
     align-items: center;
-    justify-content: center;   
+    margin-top: 10px;
+    gap: 8px; /* espaço entre checkbox e texto */
 }
 
+.checkbox_label input[type="checkbox"] {
+    transform: scale(1.8);         /* Aumenta o tamanho do checkbox */
+    transform-origin: center;      /* Garante que ele aumente proporcionalmente */
+    vertical-align: middle;        /* Alinha melhor com o texto */
+    cursor: pointer;               /* Mãozinha ao passar o mouse */
+}
 
+.descricao_modelo {
+    font-size: 13px;
+    color: #555;
+    margin-top: 3px;
+    text-align: start;
+    max-width: 250px;
+}
+
+.botao_informacao {
+position:relative;
+top: 170px; /* Move a imagem para baixo */
+}
 
 
 /*Edições do rodapé do site*/
@@ -92,7 +126,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 20px; /* espaço entre h2 e redes-sociais */
-    padding: 10px; /* opcional: espaçamento interno */
+    padding: 10px; 
 
 }
 .redes-sociais {
@@ -105,3 +139,4 @@ footer {
     position: absolute;
     right: 40px;
 }
+
