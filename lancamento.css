@@ -41,6 +41,10 @@
 /*Edições do contéudo(main) do site*/
 
 
+main {
+    padding-bottom: 100px; /* espaço para o footer */
+}
+
 .container_main {
     justify-content: center;
     align-items: center; 
@@ -51,7 +55,8 @@
 
 .container_escolhas_de_carro {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Empilha os elementos */
+    align-items: center;    /* Centraliza horizontalmente */
     gap: 40px;
     margin-top: 40px;
     padding: 20px;
@@ -108,6 +113,42 @@ position:relative;
 top: 170px; /* Move a imagem para baixo */
 }
 
+.modelos_container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; /* Faz quebrar em telas pequenas */
+}
+
+.compare {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.comparar_carros {
+   
+    padding: 10px 50px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #1351d8;
+    border-radius: 11px;
+    color: #ffff;
+    font-family: 'Antic', sans-serif;
+    border: none;
+
+}
+
+
+.comparar_carros :hover {
+    background-color: #1b357e;
+}
+
+
+
+
+
 
 /*Edições do rodapé do site*/
 
@@ -139,4 +180,5 @@ footer {
     position: absolute;
     right: 40px;
 }
+
 
