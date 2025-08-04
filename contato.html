@@ -25,19 +25,27 @@
       </header>
       
       <main>
+
         <div class="container_formulario">
-            <form>
+          <div class="img_formulario">
+            <img src="./img/storm.jpg" alt="imagem do formulário " class="img_form">
+          </div>
+
+            <form>  
+              <label for="sobrevc" >Sobre você: </label><br>
                 <input type="text"  name="fname" placeholder="NOME *"><br>
-                <input type="text"  name="fname" placeholder="E-Mail *"><br>
-                <input type="number"  name="fname" placeholder="CPF"><br>
+                <input type="text"  name="fname" placeholder="E-MAIL *"><br>
+                <input type="number"  name="fname" placeholder="CPF *"><br>
                 <input type="text"  name="fname" placeholder="SOBRENOME *"><br>
                 <input type="tel"  name="fname" placeholder="TELEFONE *"><br>
-
-
-
-                
+                <select id="cars" name="cars">
+                  <option value="contatos" class="contatos_select">COMO DESEJA SER CONTATADO?</option>
+                  <option value="saab">Telefone</option>
+                  <option value="fiat">E-mail</option>
+                  <option value="audi">Whatsapp</option>
+                </select>
+                <button class="enviar_formulario">Enviar</button>
             </form>
-
         </div>
       </main>
 

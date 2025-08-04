@@ -36,6 +36,68 @@
     color: #1351d8;
 }
 
+/* Ediações do corpo/main do site */
+
+
+.container_formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+
+form label {
+    font-family: 'Antic';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+  form input, form select {
+    width: 300px;              /* mesma largura */
+    padding: 10px;             /* espaçamento interno */
+    margin-bottom: 10px;       /* espaçamento entre os campos */
+    border: 1px solid #ccc;    /* borda igual */
+    border-radius: 4px;        /* cantos arredondados */
+    font-size: 16px;           /* tamanho da fonte */
+    box-sizing: border-box;    /* padding não altera a largura total */
+    color: gray;
+    font-family: 'Antic';
+    font-weight: 590;  
+}
+
+  form select {
+    background-color: white;  /* remove fundo padrão azul no Windows */
+    appearance: none;         /* remove seta padrão (opcional) */
+  }
+
+.enviar_formulario {
+    padding: 10px 70px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #1351d8;
+    border-radius: 9px;
+    color: #ffff;
+    font-family: 'Antic', sans-serif;
+    border: none;
+    margin-top: 15px;
+    display: flex;
+   
+}
+
+.img_form {
+    padding: 25px;
+    width: 380px;
+}
+
+
+
+
+
+
+
+
 
 
 
