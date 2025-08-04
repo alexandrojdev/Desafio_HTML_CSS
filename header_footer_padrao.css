@@ -1,0 +1,88 @@
+/*Edição padrão do footer*/
+
+.header-container {
+    display: flex;
+    justify-content: center;  /* centraliza o menu */
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+
+.logo_cabecalho {
+    position: absolute;
+    left: 20px; /* canto esquerdo */
+}
+
+.logo_cabecalho img {
+    width: 130px;
+}
+
+.menu_cabecalho {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Antic';
+    font-weight: bold;
+}
+
+.menu_cabecalho a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #1351d8;
+}
+
+/* HEADER RESPONSIVO */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo_cabecalho {
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .menu_cabecalho {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu_cabecalho a {
+        font-size: 20px;
+    }
+}
+
+
+
+/*Edições padrão do footer*/
+
+footer {
+    font-family: 'Antic';
+    background-color: #1b357e;
+    color: #ffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+.menu-footer {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espaço entre h2 e redes-sociais */
+    padding: 10px; 
+
+}
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-footer {
+    width: 90px;
+    position: absolute;
+    right: 40px;
+}
