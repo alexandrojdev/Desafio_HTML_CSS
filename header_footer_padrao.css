@@ -31,6 +31,11 @@
     color: #1351d8;
 }
 
+.menu_cabecalho a:hover {
+    border-bottom: 3px solid #1351d8;
+}
+
+
 /* HEADER RESPONSIVO */
 @media (max-width: 768px) {
     .header-container {
@@ -52,6 +57,8 @@
     .menu_cabecalho a {
         font-size: 20px;
     }
+
+    
 }
 
 
